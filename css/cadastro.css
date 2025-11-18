@@ -1,0 +1,63 @@
+body {
+  background: #141414;
+}
+#voluntarios {
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 5rem;
+}
+
+#voluntarios h1 {
+  font-size: 2.5rem;
+  color: #fff;
+}
+#voluntarios p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #fff;
+  margin-top: 0.5rem;
+}
+.form_container {
+  max-width: 600px;
+  padding: 20px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-color: #ccc;
+  color: #ccc;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+label {
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: 1px solid #aaa;
+}
+
+button {
+  padding: 12px;
+  background: #004aad;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #003d91;
+}
